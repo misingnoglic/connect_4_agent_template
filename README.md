@@ -8,6 +8,8 @@ Your goal is to implement the `StudentAgent` class located in `agents.py`. Your 
 
 Currently, `StudentAgent` just picks a random valid move. You'll need to write Python code inside the `get_action` method to return the best possible column index to play your piece. 
 
+In addition to your code, you must fill out the `about_agent.md` file explaining your agent's overall strategy and how your custom heuristic works. **LLM Policy:** You are allowed to use LLMs (like ChatGPT, Claude, etc.) to brainstorm ideas or understand algorithmic concepts. However, **all code must be written by you**, you must fully understand everything your code is doing, and **all writing in `about_agent.md` must be entirely your own words.**
+
 ### Time Limits
 
 Your agent must return an action within the allotted `time_limit` (e.g., 5 seconds depending on the tournament configuration). If your agent takes too long, it will be forcefully terminated and you will **forfeit** the game. 
